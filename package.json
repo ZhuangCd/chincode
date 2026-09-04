@@ -1,0 +1,14 @@
+{
+  "name": "xiaoyao-xue-zhongwen",
+  "version": "1.0.0",
+  "private": true,
+  "description": "逍遥学中文 - a lightweight Chinese learning blog.",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.2"
+  }
+}
+

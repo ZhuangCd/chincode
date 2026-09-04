@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="逍遥学中文：Chinese learning notes, newest first.">
+    <title>{{ title or "逍遥学中文" }}</title>
+    <link rel="stylesheet" href="assets/styles.css">
+  </head>
+  <body>
+    <main class="page">
+      <header class="site-header">
+        <div class="brand">
+          <span class="seal" aria-hidden="true">学</span>
+          <div>
+            <h1>逍遥学中文</h1>
+            <p>daily Chinese notes, newest first</p>
+          </div>
+        </div>
+      </header>
+
+      {{ content | safe }}
+    </main>
+  </body>
+</html>
+

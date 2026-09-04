@@ -1,0 +1,44 @@
+---
+layout: base.njk
+title: 逍遥学中文
+---
+
+<section class="feed" aria-label="Learning notes">
+  {% for post in collections.posts %}
+    <article class="post-card">
+      <header class="post-heading">
+        <time datetime="{{ post.date | htmlDate }}">{{ post.date | dateCn }}</time>
+        <h2>{{ post.data.title }}</h2>
+      </header>
+
+      {% if post.data.image %}
+        <figure class="post-image">
+          <img src="{{ post.data.image | assetUrl }}" alt="{{ post.data.imageAlt or post.data.title }}">
+        </figure>
+      {% endif %}
+
+      <div class="post-content">
+        {{ post.templateContent | safe }}
+      </div>
+
+      {% set tags = post.data.tags | asArray %}
+      {% if tags.length %}
+        <ul class="tags" aria-label="Tags">
+          {% for tag in tags %}
+            <li>{{ tag }}</li>
+          {% endfor %}
+        </ul>
+      {% endif %}
+    </article>
+  {% else %}
+    <article class="post-card">
+      <header class="post-heading">
+        <h2>还没有文章</h2>
+      </header>
+      <div class="post-content">
+        <p>第一篇文章很快就会在这里出现。</p>
+      </div>
+    </article>
+  {% endfor %}
+</section>
+
