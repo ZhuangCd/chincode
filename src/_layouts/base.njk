@@ -5,22 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="逍遥学中文：Chinese learning notes, newest first.">
     <title>{{ title or "逍遥学中文" }}</title>
-    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="{{ '/assets/styles.css' | url }}">
   </head>
   <body>
     <main class="page">
       <header class="site-header">
-        <div class="brand">
+        <a class="brand" href="{{ '/' | url }}">
           <span class="seal" aria-hidden="true">学</span>
           <div>
             <h1>逍遥学中文</h1>
             <p>daily Chinese notes, newest first</p>
           </div>
-        </div>
+        </a>
+
+        {% if collections.pages.length %}
+          <nav class="site-nav" aria-label="Pages">
+            {% for item in collections.pages %}
+              <a href="{{ item.url | url }}">{{ item.data.title }}</a>
+            {% endfor %}
+          </nav>
+        {% endif %}
       </header>
 
       {{ content | safe }}
     </main>
   </body>
 </html>
-

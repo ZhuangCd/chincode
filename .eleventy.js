@@ -16,6 +16,13 @@ module.exports = function (eleventyConfig) {
       .sort((a, b) => b.date - a.date);
   });
 
+  // Standalone pages (pages/about.md -> /about/). Ordered by optional `order`.
+  eleventyConfig.addCollection("pages", (collectionApi) => {
+    return collectionApi
+      .getFilteredByGlob("pages/*.md")
+      .sort((a, b) => (a.data.order ?? 99) - (b.data.order ?? 99));
+  });
+
   eleventyConfig.addFilter("htmlDate", (date) => {
     return date.toISOString().slice(0, 10);
   });
@@ -37,15 +44,10 @@ module.exports = function (eleventyConfig) {
     return Array.isArray(value) ? value : [value];
   });
 
-  eleventyConfig.addFilter("assetUrl", (value) => {
-    if (!value || /^(https?:)?\/\//.test(value) || value.startsWith("data:")) {
-      return value;
-    }
-
-    return value.replace(/^\/+/, "");
-  });
-
   return {
+    // Overridden in CI with --pathprefix=/<repo-name>/ so GitHub Pages
+    // project sites (https://user.github.io/<repo>/) resolve links correctly.
+    pathPrefix: "/",
     dir: {
       input: ".",
       includes: "src/_includes",
@@ -57,4 +59,3 @@ module.exports = function (eleventyConfig) {
     templateFormats: ["md", "njk", "html"]
   };
 };
-

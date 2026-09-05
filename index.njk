@@ -13,7 +13,7 @@ title: 逍遥学中文
 
       {% if post.data.image %}
         <figure class="post-image">
-          <img src="{{ post.data.image | assetUrl }}" alt="{{ post.data.imageAlt or post.data.title }}">
+          <img src="{{ post.data.image | url }}" alt="{{ post.data.imageAlt or post.data.title }}">
         </figure>
       {% endif %}
 
