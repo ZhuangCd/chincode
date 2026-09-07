@@ -65,7 +65,7 @@ The homepage renders all posts as a simple feed:
 The homepage also has a small header with:
 
 - Site name: `逍遥学中文`
-- Short subtitle: daily Chinese notes, newest first
+- Short subtitle: azért kicsit a csésze, mert mi kiélvezzük az ízeket
 
 Do not show navigation links in version one unless a real page exists.
 
