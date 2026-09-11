@@ -20,7 +20,9 @@ image: /assets/images/juanlai.jpeg
 
 功夫 Kung fu hustle 2004
 
-<img class="inline-img" src="/assets/images/buddhapalm.webp" alt="如来神掌"> 如来神掌
+<img class="inline-img" src="/chincode/assets/images/buddhapalm.webp" alt="如来神掌"> 
+
+如来神掌
 
 
 
