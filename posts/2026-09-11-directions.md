@@ -22,7 +22,9 @@ image: /assets/images/juanlai.jpeg
 
 <img class="inline-img" src="/chincode/assets/images/buddhapalm.webp" alt="如来神掌"> 
 
-如来神掌 Buddha tenyere kunfu move
+如来神掌 Buddha tenyere kunfu move 
+
+"Nálam van a titkos tudás, a tuti megoldás.. Tudom különleges tehetség vagy:D "
 
 
 
