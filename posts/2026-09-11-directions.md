@@ -1,5 +1,5 @@
 ---
-title: 往前走 HSK2.7,  HSK2.9 
+title: 往前走 HSK2.7,  HSK2.9, HSK2.10, HSK2.11
 date: 2026-09-12
 ---
 
@@ -23,3 +23,10 @@ date: 2026-09-12
 - 吃汉堡 - 吃汉堡对身体不好
 
 - 不运动 - 忘了运动对身体不好
+
+
+
+庄子的歌比老子的歌**好听得多**。
+孔子的书比老子的书**有意思多了**。
+Sam Reid 的电影比 Tom Cruise 的电影好多了。
+Jacob Anderson 的 Louis 比 Brad Bitt 的 Louis 自然多了。
