@@ -3,7 +3,6 @@ title: 往前走 HSK2.7,  HSK2.9
 date: 2026-09-12
 ---
 
-Make a map of your city, label where you live, where you work, where you go to school, etc, and the distance between them.
 我住在公司的西边。
 我的工司在公园的北边。 
 我在公元东边的学校学习。
@@ -15,3 +14,12 @@ Make a map of your city, label where you live, where you work, where you go to s
 3. 跑步 - 我从10岁开始跑步。
 4. 散步 - 我从2岁开始散步。
 5. 说中文 - 我从19岁开始说中文。 
+
+
+- 看手机 - 看手机对眼睛不好
+
+- 看电视 - 看太多电视对身体不好
+
+- 吃汉堡 - 吃汉堡对身体不好
+
+- 不运动 - 忘了运动对身体不好
