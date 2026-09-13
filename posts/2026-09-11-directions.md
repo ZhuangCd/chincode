@@ -31,24 +31,3 @@ date: 2026-09-12
 Sam Reid 的电影比 Tom Cruise 的电影好多了。
 Jacob Anderson 的 Louis 比 Brad Bitt 的 Louis 自然多了。
 
-
-- Thor 比 Loki 强多了。
-- Loki 比 Thor 说得快。 
-- Odin 比 Thor 老多了。 
-- Odin 比 Loki 帅多了。 
-
-
-
-- 2013年我去过一次意大利 🇮🇹。
-- 2018年我喝过两次绿茶 🍵。
-- 2024年我去过丹麦 🇩🇰。
-- 2026年我看过雪 ❄️。
-
-
-
-- 我就要站起来做运动了。
-- 我要去**泡**一杯绿茶。 
-
-- 我快要上大学。 
-- 我快要见到我的新中文老师。 
-- 我快要去 Kassa。
